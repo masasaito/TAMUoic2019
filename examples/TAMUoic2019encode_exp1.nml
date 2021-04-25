@@ -1,0 +1,26 @@
+&TAMUoic2019
+
+  TAMUoic2019path = '../tables' ! TAMUoic2019 data kernel path
+  outpath         = './output'
+
+  nsiz = 1
+  nwav = 1
+  niang= 1 
+  siz(1:1) = 1.0000000E+02
+  wav(1:1) = 3.5500000E-01
+  iang(1:1)= 3.0000000E-01
+  hab    = 'OrientedPlate'
+  pol    = 'Vector'
+/
+
+Example 1: Single particle case
+	Maximum Diameter     = 100 µm
+	Wavelength	     = 0.355 µm
+	Incident Polar Angle = 0.3 (deg)
+	Particle Habit	     = Oriented Plates
+        Phase matrix         = Vector
+
+Note: This configuration is useful to check the single-scattering 
+      properties of a single oriented ice crystal. 
+      Total data size of this ASCII database is 23MB. This process
+      takes about several seconds.  

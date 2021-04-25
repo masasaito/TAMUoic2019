@@ -1,0 +1,28 @@
+&TAMUoic2019
+
+  TAMUoic2019path = '../tables' ! TAMUoic2019 data kernel path
+  outpath         = './output'
+
+  nsiz = 20
+  nwav = 1
+  niang= 19 
+  siz(1:20) = 5.0000000E+01,7.5000000E+01,1.0000000E+02,1.2500000E+02,1.5000000E+02,1.7500000E+02,2.0000000E+02,2.2500000E+02,2.5000000E+02,2.7500000E+02,3.0000000E+02,4.0000000E+02,5.0000000E+02,7.5000000E+02,1.0000000E+03,1.2500000E+03,1.5000000E+03,2.0000000E+03,2.5000000E+03,3.0000000E+03
+  wav(1:1)  = 5.3200000E-01
+  iang(1:19)= 0.0000000E+00,5.0000000E+00,1.0000000E+01,1.5000000E+01,2.0000000E+01,2.5000000E+01,3.0000000E+01,3.5000000E+01,4.0000000E+01,4.5000000E+01,5.0000000E+01,5.5000000E+01,6.0000000E+01,6.5000000E+01,7.0000000E+01,7.5000000E+01,8.0000000E+01,8.5000000E+01,9.0000000E+01
+  hab       = 'OrientedPlate'
+  pol       = 'Scaler'
+/
+
+Example 3: Size and incident angle resolved oriented ice crystal scattering database
+	Maximum Diameter     = 50-3,000 µm (20 bins)
+	Wavelength	     = 0.532 µm
+	Incident Polar Angle = 0-90 (deg)
+	Particle Habit	     = Oriented Plates
+        Phase matrix         = Scaler
+
+Note: This configuration is useful to obtain a database to compute 
+      the bulk optical properties for monochromatic optical 
+      phenomenon simulations. Total data size of this ASCII database
+      is 521MB. This process takes about 1.5 minutes.
+ 
+
